@@ -1,0 +1,16 @@
+.cabecalho{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #4d1343;
+    color: #ffeeee;
+    position: relative;
+    }
+
+    .logo{
+        width: 120px;
+        height: 90px;
+
+    }
+
