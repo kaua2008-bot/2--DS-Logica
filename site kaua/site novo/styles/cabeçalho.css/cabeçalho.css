@@ -1,0 +1,18 @@
+.cabeçalho {
+background:linear-gradient(rgba (100,149,237,0.5),rgba(100, 149, 237, 0.5)),
+url("../imagens/956876119-imagem2024-03-27110433060.webp")
+no-repeat center;
+background-size: cover;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.cabeçalho h1 { 
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
