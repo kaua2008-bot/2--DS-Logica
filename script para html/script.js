@@ -1,5 +1,3 @@
-const titulo = document.createElement= ('p');
-titulo.id='titulo';
-titulo.color ='blue';
-titulo.textContent
-document.body.appendChild=('titulo');
+const titulo = document.createElement('h1')
+titulo.textContent = 'Este é o lugar do titulo';
+document.body.appendChild(titulo);
