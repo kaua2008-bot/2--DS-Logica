@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxe perfume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f8f8f8;
+            color: #222;
+        }
+
+        header {
+            width: 100%;
+            padding: 20px;
+            background: black;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 26px;
+            letter-spacing: 2px;
+        }
+
+        header nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .hero {
+            background: url('https://osperfumes.com.br/wp-content/uploads/2024/01/OsPerfumes-Os-Melhores-Perfumes-Masculinos-Importados.png');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 0 0 15px black;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .produtos {
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            font-size: 23px;
+        }
+
+        .preco {
+            font-weight: bold;
+            font-size: 19px;
+            margin: 5px 0;
+        }
+
+        .avaliacao {
+            font-size: 20px;
+            color: gold;
+        }
+
+        .card button {
+            padding: 10px 15px;
+            background: black;
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        footer {
+            padding: 20px;
+            background: black;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Luxe Perfume</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        Perfumes de Luxo Exclusivos
+    </section>
+
+    <section class="produtos">
+
+        <div class="card">
+            <img src="https://blogdomaisvendido.com/wp-content/uploads/2023/08/perfumes-importados.jpg">
+            <h3>Royal Essence</h3>
+    
+            <p class="preco">R$ 799,00</p>
+            <p class="avaliacao">⭐⭐⭐⭐⭐</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="https://epocacosmeticos.vteximg.com.br/arquivos/ids/1083975-800-800/17585675040041.jpg?v=638947670019130000">
+            <h3>Black Luxury</h3>
+            <p class="preco">R$ 699,00</p>
+            <p class="avaliacao">⭐⭐⭐⭐</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/e7/17/f7/e717f7b87b0232098f01dfff608710c0.jpg">
+            <h3>Diamond Night</h3>
+            <p class="preco">R$ 599,00</p>
+            <p class="avaliacao">⭐⭐⭐⭐⭐</p>
+            <button>Comprar</button>
+        </div>
+
+
+        <!-- PERFUMES NOVOS -->
+
+        <div class="card">
+            <img src="https://production.na01.natura.com/on/demandware.static/-/Sites-NatBrazil-Library/default/dw741437db/Blogs/2025/Perfumaria/tipos-de-perfume/MIOLO4.jpg">
+            <h3>Le Male</h3>
+            <p class="preco">R$ 749,00</p>
+            <p class="avaliacao">⭐⭐⭐⭐⭐</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="https://production.na01.natura.com/on/demandware.static/-/Sites-NatBrazil-Library/default/dwddbc9a37/Blogs/2025/Perfumaria/perfume-amadeirado/MIOLO1.jpg">
+            <h3>good life</h3>
+            <p class="preco">R$ 890,00</p>
+            <p class="avaliacao">⭐⭐⭐⭐⭐</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="card">
+            <img src="https://production.na01.natura.com/on/demandware.static/-/Sites-NatBrazil-Library/default/dw3a4007c0/Blogs/2025/Perfumaria/perfume-amadeirado/MIOLO2.jpg">
+            <h3>lincor Essence</h3>
+            <p class="preco">R$ 719,00</p>
+            <p class="avaliacao">⭐⭐⭐⭐</p>
+            <button>Comprar</button>
+        </div>
+
+    </section>
+
+    <footer>
+        © 2025 Luxe Perfume - Todos os direitos reservados
+    </footer>
+
+</body>
+</html>
